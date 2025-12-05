@@ -35,6 +35,8 @@ const Songs = function ({ search }) {
           return (
             <SecondCards
               key={song.id}
+              songObj={song}
+              heart="Si"
               title={song.title}
               artist={song.artist.name}
               image={song.album.cover_medium}

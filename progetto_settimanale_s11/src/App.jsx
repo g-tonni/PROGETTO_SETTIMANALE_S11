@@ -25,11 +25,11 @@ function App() {
           <Col
             xs={0}
             md={2}
-            className="bg-secondary border-end border-1 border-col d-none d-md-block"
+            className="bg-secondary border-end border-1 border-col d-none d-lg-block"
           >
             <ColSx />
           </Col>
-          <Col xs={12} md={10} className="p-md-0">
+          <Col xs={12} lg={10} className="p-md-0">
             <PlayerDesk />
             <div className="px-md-5">
               <h1 className="mt-5">Novità</h1>
@@ -52,17 +52,31 @@ function App() {
               </Row>
               <Row className="g-2 my-4">
                 <p className="fw-bold fs-5 d-flex align-items-center mb-1 mt-4">
-                  <span className="me-2">Nuove uscite</span>
+                  <span className="me-2">Queen</span>
                   <MdArrowForwardIos className="opacity-75" />
                 </p>
                 <Songs search="queen" />
               </Row>
               <Row className="g-2 my-4">
                 <p className="fw-bold fs-5 d-flex align-items-center mb-1 mt-4">
-                  <span className="me-2">Nuove uscite</span>
+                  <span className="me-2">Eminem</span>
                   <MdArrowForwardIos className="opacity-75" />
                 </p>
                 <Songs search="eminem" />
+              </Row>
+              <Row className="g-2 my-4">
+                <p className="fw-bold fs-5 d-flex align-items-center mb-1 mt-4">
+                  <span className="me-2">Drake</span>
+                  <MdArrowForwardIos className="opacity-75" />
+                </p>
+                <Songs search="drake" />
+              </Row>
+              <Row className="g-2 my-4">
+                <p className="fw-bold fs-5 d-flex align-items-center mb-1 mt-4">
+                  <span className="me-2">Metallica</span>
+                  <MdArrowForwardIos className="opacity-75" />
+                </p>
+                <Songs search="metallica" />
               </Row>
               <Row className="g-2 my-4">
                 <p className="fw-bold fs-5 d-flex align-items-center mb-1 mt-4">

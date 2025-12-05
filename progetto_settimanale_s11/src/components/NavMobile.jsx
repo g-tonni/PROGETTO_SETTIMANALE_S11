@@ -8,7 +8,7 @@ function NavMobile() {
       expand="lg"
       bg="secondary"
       data-bs-theme="secondary"
-      className="d-block d-md-none"
+      className="d-block d-lg-none"
     >
       <Container fluid>
         <Navbar.Toggle aria-controls="navbarScroll" className="border-0">
@@ -24,8 +24,15 @@ function NavMobile() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
+            <Nav.Link href="#action1" className="text-light">
+              Home
+            </Nav.Link>
+            <Nav.Link href="#action2" className="text-light">
+              Novità
+            </Nav.Link>
+            <Nav.Link href="#action2" className="text-light">
+              Radio
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

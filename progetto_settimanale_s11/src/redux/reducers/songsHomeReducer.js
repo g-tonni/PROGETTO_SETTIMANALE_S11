@@ -1,15 +1,15 @@
-import { GET_SONGS } from '../actions'
+import { GET_SONG } from '../actions'
 
 const initialState = {
-  songs: [],
+  song: null,
 }
 
 const songsHomeReducer = function (currentState = initialState, action) {
   switch (action.type) {
-    case GET_SONGS:
+    case GET_SONG:
       return {
         ...currentState,
-        songs: action.payload,
+        song: action.payload,
       }
     default: {
       return currentState
