@@ -1,0 +1,30 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  opacity: 0 !important;
+}
+
+#root {
+  background-color: #1f1f1f;
+  color: rgba(255, 255, 255, 0.814);
+  min-height: 100vh;
+}
+
+.btn-home {
+  background: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.btn-home:hover {
+  background-color: rgba(255, 255, 255, 0.226);
+}
+
+.border-col {
+  border-color: rgba(255, 255, 255, 0.263) !important;
+}
+
+.play-shadow {
+  box-shadow: 0px 4px 15px -3px rgba(0, 0, 0, 0.7);
+}
